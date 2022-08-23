@@ -1,4 +1,3 @@
-import code
 import uuid
 from rentomatic.domain.room import Room
 
@@ -62,3 +61,4 @@ def test_room_model_comparison():
     room2 = Room.from_dict(init_dict)
 
     assert room1 == room2
+
