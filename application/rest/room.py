@@ -5,6 +5,7 @@ from flask import Blueprint, Response, request
 from rentomatic.repository.memrepo import MemRepo
 from rentomatic.use_cases.room_list import room_list_use_case
 from rentomatic.serizalizers.room import RoomJsonEncoder
+
 from rentomatic.requests.room_list import build_room_list_request
 from rentomatic.responses import ResponseTypes
 
@@ -16,6 +17,7 @@ STATUS_CODES = {
     ResponseTypes.PARAMETERS_ERROR: 400,
     ResponseTypes.SYSTEM_ERROR: 500,
 }
+
 
 rooms = [
     {
