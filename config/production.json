@@ -5,7 +5,7 @@
     },
     {
       "name": "FLASK_CONFIG",
-      "value": "testing"
+      "value": "production"
     },
     {
       "name": "POSTGRES_DB",
@@ -21,30 +21,15 @@
     },
     {
       "name": "POSTGRES_PORT",
-      "value": "5533"
+      "value": "5432"
     },
     {
       "name": "POSTGRES_PASSWORD",
       "value": "postgres"
     },
     {
-      "name": "MONGODB_USER",
-      "value": "root"
-    },
-    {
-      "name": "MONGODB_HOSTNAME",
-      "value": "localhost"
-    },
-    {
-      "name": "MONGODB_PORT",
-      "value": "27018"
-    },
-    {
-      "name": "MONGODB_PASSWORD",
-      "value": "mongodb"
-    },
-    {
       "name": "APPLICATION_DB",
-      "value": "test"
+      "value": "application"
     }
-]
+  ]
+  
